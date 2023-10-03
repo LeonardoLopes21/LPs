@@ -1080,7 +1080,7 @@
     display: grid;
     height: 90vh;
     width: 100%;
-    grid-template-rows: 2% auto;
+    grid-template-rows: 3% auto;
     padding-left: 15%;
     padding-right: 15%;
 }
@@ -1089,6 +1089,13 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 60% 30%
+}
+
+.stickers{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 #prod-info-container{
@@ -1101,6 +1108,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 2%;
+ 
 }
 
 .further-details{
