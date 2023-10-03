@@ -1,0 +1,1302 @@
+/* RESET */
+*{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+*:visited{
+    text-decoration: none;
+    color: black;
+}
+
+ /* NAVBAR  */
+
+#header {
+    font-family: 'Roboto Condensed';
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background: url('../assets/imgs/bg_topography4.png');
+    background-color: black;
+    height: 16vh;
+    width: 100%;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    
+}
+
+.forty-sixty-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.navbar-config{
+    display: grid;
+    grid-template-columns: 2% 96% 2%;
+    grid-template-rows: 50% 50%;
+}
+
+
+#logo {
+    background: url('../assets/imgs/logo.png');
+    background-position-y: center; 
+    background-size: 40%; background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+
+/* UPPER NAVBAR ----- */
+
+#navbar-upper{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    border-bottom: 1px solid #eedb78;
+    padding-right: 20px;
+    width: 85%;
+}
+
+
+
+.format-icon{
+    display: flex;
+    justify-content: end;
+    margin-right: 7px;
+    
+    
+}
+
+.icon-sizes{
+    width: 25px;
+}
+
+/* GRID TEMPLATES */
+
+.left-right-grid{
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.review-grid{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.five-stars{
+    display: flex;
+    justify-content: end;
+}
+
+.right-left-grid{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.right-left-grid-moderate{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 13%;
+}
+
+.even-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.auto-two-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.stacked-even-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+
+}
+
+/* SEARCH BAR */
+
+#search-bar{
+    border: none;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    width: 90%;
+    height: 20%;
+}
+
+#search-bar:focus{
+    outline: none;
+}
+
+#search-icon{
+    display: flex;
+    color: white;
+    position: relative;
+    top: 40%;
+}
+
+/* QUESTION ICON */
+
+/* #question-icon{
+    position: relative;
+    bottom: 1px;
+} */
+
+.end-center{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+    
+}
+
+.icon-sizing{
+    
+    width: fit-content;
+    
+}
+
+.lower-grid-item{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    height: 95%;
+}
+
+/* MIDDLE NAVBAR */
+
+
+
+#left-wing{
+
+    
+    height: 15px;
+    
+    position: relative;
+    right: 9px;
+    top: 65px;
+    
+
+}
+
+#right-wing{
+
+  height: 15px;
+  top: 65.6px;
+  right: 203px;
+  position: relative;
+  
+   
+    
+
+}
+
+
+
+
+/* LOWER NAVBAR --------- */
+#navbar-lower {
+    margin-left: 28px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(9, 6%) repeat(5, 5%);
+    grid-column: 2;
+    
+
+}
+
+.yellow-on-hover:hover{
+
+    background-color: #eedb78;
+    stroke: black;
+    color: black;
+
+}
+
+.bg-yellow{
+
+    background-color: #eedb78;
+
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.fit{
+    
+    width: fit-content;
+}
+
+.bg-dark{
+    background: black;
+    
+    
+}
+
+#Layer_1{
+
+    margin: 0;
+
+}
+
+.lower-icon-dimensions{
+    height: 30px;
+    width: 30px;
+}
+
+
+#outlet:hover{
+    background-color: none;
+    
+    
+}
+
+#outlet{
+    background-color: none;
+    background: url('../assets/imgs/outlet.png');
+    background-size: contain;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+
+.child-navbar-row{
+    
+    height: 50%;
+    width: 97%;
+}
+
+/* ICONS */
+
+.star{
+    display: inline;
+    height: 15px;
+    width: 15px;
+}
+
+.heart-icon-positioning{
+    
+    position: relative;
+    display: flex;
+    justify-content: end;
+    bottom: 192%;
+
+    
+   
+    
+}
+
+.heart-icon{
+    height: 25px;
+    
+    fill: none;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 4px;
+}
+
+.heart-icon:hover{
+    fill: crimson;
+    stroke: transparent;
+}
+
+
+/* STRUCTURE */
+
+#img-section {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 2.5% 2.5%;
+    column-gap: 95%;
+    background: url('../assets/imgs/ballantines.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 47%;
+    background-position-x: 20%;
+    margin-bottom: 50px;
+}
+
+#items-column-container{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+
+.child-item-column{
+    height: 90vh;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.large-roboto{
+    font-size: 21pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* UTILITY */
+
+.roboto-condensed{
+    font-family:'Roboto Condensed';
+}
+
+.underlined{
+
+    text-decoration: underline;
+
+}
+
+.medium-font{
+    font-weight: 300;
+}
+
+.large-font{
+    font-size: 20pt;
+}
+
+.strong-font{
+    font-weight:bold;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.border-grey{
+    border-bottom: 1px solid grey;
+}
+
+.quarter-down{
+    position: relative;
+    top: 25%;
+}
+
+.half-size{
+
+    height: 50%;
+    
+}
+
+.quarter-size{
+    width: 25%;
+    height: 25%;
+}
+
+.text-white{
+    color: white;
+}
+
+.very-slightly-right{
+    margin-left: 2%;
+}
+
+.light-right{
+    margin-left: 3%;
+}
+
+.bit-right{
+    margin-left: 10%;
+}
+
+
+.center-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.small-font{
+    font-size: 12px;
+}
+
+.smallish-font{
+    font-size: 12pt!important;
+}
+
+.dark-icon{
+    stroke: white;
+    fill: white;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow-outline{
+    outline: 2px solid #eedb78;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.end-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.end-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+.light-font{
+    font-weight: 200;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+.clickable:hover{
+    cursor: pointer;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.yellow{
+    color: #eedb78;
+}
+
+.title-text{
+    margin-top: 40px;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+
+/* FILTER-COLUMN */
+
+
+
+#brands{
+    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto;
+    height: max-content;
+    width: 90%;
+}
+
+.brands-title{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: none;
+    margin-bottom: 12%;
+   
+}
+
+#filter-column{
+    width: 15vw;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 10px;
+    grid-template-rows: repeat(9, auto) ;
+
+    
+}
+
+#scrollbar{
+    display: flex; flex-direction: column; justify-content: end;
+    height: 50%; margin-top: 100px;
+    background-color: #eedb78; border-radius: 150px;
+}
+
+.radio-check{
+    color: #eedb78; appearance: none; font:inherit;
+    width: 1.35em; height: 1.35em; border: 0.15em solid grey; border-radius: 50%;
+}
+
+.radio-check:checked{
+    
+    outline: 7px solid #eedb78;
+    outline-offset: -12px;
+    width: 1.35em;
+    background-size: 0%;
+    
+}
+
+.smaller-title-text{
+    position: relative;
+    top: 5px;
+}
+
+
+#filter-title{
+    display: grid; font-size: x-large; grid-template-columns: 15% 85%; column-gap: 5px; height: fit-content;
+}
+
+.filter-item{
+    font-family:'Roboto Condensed';
+    color: black;
+    margin-bottom: 10px;
+}
+
+#brand-selector{
+    display: grid; grid-template-columns: 97% 3%;
+    
+}
+
+#brand-ops{
+    padding: 0;
+    display: grid; grid-template-columns: 15% auto;
+}
+
+.filter-item-amount{
+    font-size: small;
+    color: rgb(88, 88, 88);
+}
+
+#price-ranges{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+#last-range{
+    text-align: right;
+}
+
+#pr-in{
+    appearance: none;
+    width: 100%;
+}
+
+
+/* CHROME */
+#pr-in::-webkit-slider-runnable-track{
+    background: rgb(235, 235, 235);
+}
+
+/* FIREFOX */
+
+#pr-in::-moz-range-track {
+    background: rgb(235, 235, 235);
+}
+
+#pr-in::-moz-range-thumb {
+    
+    outline: 5px solid #eedb78;
+    outline-offset: -8px;
+}
+
+#prices{
+    margin-right: 20px;
+}
+
+
+/* FILTER OPS */
+
+.side-icon{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    
+    
+}
+
+.side-icon-closed{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#filter-ops{
+    height: fit-content;
+}
+
+.op-line{
+    color: rgb(255, 255, 255);
+    width: 250px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+/* SUGGESTION BOXES */
+
+
+
+#suggestion-boxes {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+}
+
+.suggestion-box{
+    
+
+    margin-top: 20px;
+    height: 45vh;
+    width: 70vw;
+    display: grid;
+    grid-template-columns: fit-content;
+    row-gap: 40px;
+    grid-template-rows: 15% 85%;
+}
+
+/* Product-Column */
+
+.column-gap{
+    column-gap: 220px;
+}
+
+#products-column{
+    display: grid;
+    width: 55vw;
+    height: fit-content;
+    grid-template-columns: auto;
+    grid-template-rows: 3% 94% 3%;
+}
+
+/* UPPER Product-Column */
+
+#upper-content-bar {
+
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+
+}
+
+.inverted-arrow{
+    color: #eedb78;
+    outline: 2px solid black!important;
+}
+
+.lightly-down{
+    margin-top: 50px;
+}
+
+.arrow-icon{
+    position: relative;
+    top: 5px;
+}
+
+.arrow-icon-div{
+    outline:2px solid #eedb78;
+    height: 35px;
+    border-radius: 100%;
+    outline-offset: -5px;
+}
+
+.page-items{
+    display: inline-block;
+    padding: 4px 12px;
+}
+
+/* order select */
+
+#order-by{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#order-input{
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: medium;
+    text-align: center;
+    width: 150px;
+    outline-width: none;
+    
+   
+}
+
+/* PRODUCTS ROW */
+
+
+#products-row{
+    
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 27%);
+    grid-template-rows: repeat(5, auto);
+    row-gap: 90px;
+}
+
+.product-box{
+    background-color: white;
+    height: 38vh;
+    margin-right: 20px;
+    box-shadow:  20px 40px 70px -40px rgb(0, 0, 0) ;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 70% 30%;
+}
+
+.upper-product-box{
+    display: grid;
+    grid-template-columns: repeat(3, fit-content);
+}
+
+.lower-product-box{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto) 40%;
+}
+
+.us-flag-icon{
+    background: url('../assets/imgs/flags/Flag-United-States-of-America.webp');
+    background-size: 350%;
+    background-position-x: 30%;
+    background-position-y: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.frete-gratis{
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100%;
+    align-items: end;
+    
+    
+    
+}
+
+.frete-gratis-box{
+    
+    
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.product-title{
+    font-size: 10pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.discount-given{
+    text-align: center;
+    text-decoration: line-through;
+    padding-top: 10px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.amount-review{
+    position: relative;
+    top:2px;
+    left: 5px;
+    text-align: left;
+    color: rgb(37, 37, 37);
+    font-size: 11px;
+}
+
+
+.background-img{
+    background: url('../assets/imgs/products/jack-daniels.png'); background-size:cover;
+    background-position-x: center;
+}
+
+.add-to-cart{
+    
+    padding-top: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.add-quant{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    outline: 1px solid black;
+}
+
+/* LOWER CONTENT BAR */
+
+#lower-content-bar{
+
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    
+}
+
+.suggestion-icon-and-text{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.suggestion-header{
+    display: grid;
+    grid-template-columns: auto 1% auto ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grey-line{
+    background-color: grey;
+    position: relative;
+    top: 20%;
+    width: 10%;
+    height: 60%;
+    opacity: 0.2;
+}
+
+.select-whisky{
+    display: grid;
+    
+    grid-template-columns: 15% 15% 15% 15%;
+
+}
+
+.whisky-item{
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 98% 2%;
+}
+
+#whiskey-selector{
+    display: grid;
+    grid-template-columns: 3.6% 90% 3.5%;
+}
+
+.select-whisky:hover{
+    margin-top: 3px;
+}
+
+.whisky-item:hover .underline{
+    display: flex;
+    justify-content: center;
+    height: 2px;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #eedb78;
+}
+
+#display-whisky{
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    grid-template-columns:  repeat(5, 20%) ;
+    
+}
+
+
+
+.space-between-rows{
+
+    row-gap: 80px;
+
+}
+
+.categories{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 3.6% repeat(9, 10%) 3.6%;
+    
+}
+
+.categories-2{
+    margin-left: 70px;
+    
+    column-gap: 50px;
+    
+}
+
+.drink-cat{
+    position:unset;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.whisky-url{
+    background: url('../assets/imgs/products/jack-daniels.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    
+}
+
+.cerveja-url{
+    background: url('../assets/imgs/products/roleta-russa-cerv.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.liquor-url{
+    background: url('../assets/imgs/products/Aperitivo-Jagermeister-700ml.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.gin-url{
+    background: url('../assets/imgs/products/ginsapphire.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.rum-url{
+    background: url('../assets/imgs/products/bacardicartaoro.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+
+.champagne-url{
+    background: url('../assets/imgs/products/chandon.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.vodka-url{
+    background: url('../assets/imgs/products/Vodka-Grey-Goose-200ml.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.vino-url{
+    background: url('../assets/imgs/products/vino.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.cachaca-url{
+    background: url('../assets/imgs/products/Cachaca-Ypioca-160-Anos-com-Malte-700ml.png');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    
+}
+
+.cat-display-grid{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 90% 10%;
+}
+
+.cat-display-grid:hover {
+    font-weight: bold;
+}
+
+#last-pic{
+    background: url('../assets/imgs/lamas-dest.png');
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.last-pic-container{
+
+    display: flex; justify-content: center; height: 10vh; width: 96%; 
+    margin-top: 90px; margin-bottom: 50px;
+
+}
+
+/* ------------------------------------------------- LP 2 ------------------------------------------------------- */
+
+.breadcrumb{
+    margin-left: 15%;
+}
+
+#main-prod-view{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: 3% auto auto;
+    
+    
+    height: 197vh;
+    width: 80%;
+}
+
+.prod-display{
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.prod-img-view{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 85% 15%;
+}
+
+#prod-info{
+    display: grid;
+    height: 90vh;
+    width: 100%;
+    grid-template-rows: 2% auto;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.prod-details{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 60% 30%
+}
+
+#prod-info-container{
+    display: flex; justify-content: center; padding-top: 40px;
+}
+
+.header-info{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2%;
+}
+
+.further-details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.upper-product-details{
+    display: grid;
+    grid-template-rows: repeat(9, auto);
+    
+}
+
+.add-to-cart-expanded{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+}
+
+.add-to-cart-expanded .add-quant{
+    height: 40px;
+}
+
+.bottom-details{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 60% 10% 10%;
+}
+
+.display-imgs{
+    
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10% 10% 10% 10%;
+}
+
+.tequila{
+    
+    background-image: url('../assets/imgs/products/tequila.jpg');
+    height: 80px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.tequila-full{
+    
+    background-image: url('../assets/imgs/products/tequila.jpg');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.even-grid-two{
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#cat-1 .suggestion-bg-yellow{
+    left: 10px;
+    width: 120px!important;
+}
+
+#cat-1 .drink-cat{
+    
+    background-size: 200%;
+    background-position-y: 100%;
+    background-position-x: center;
+}
+
+#cep-input{
+    outline: 1px solid black;
+    border: none;
+    height: 120%;
+    width: 40%;    
+}
+
+.ok-button{
+    margin-top: 5px;
+    width: 40%;
+}
+
+.fractured-imgs-grid{
+   position: relative;
+   left: 150px;
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: min-content repeat(5, min-content) min-content;
+    grid-template-rows: min-content;
+    
+}
+
+#tequila-10{
+    background-position-y: 25%;
+}
+
+#tequila-20{
+    background-position-y: 42%;
+}
+
+#tequila-30{
+    background-position-y: 60%;
+}
+
+#tequila-40{
+    background-position-y: 85%;
+}
+
+#tequila-brand{
+    background: url('../assets/imgs/products/confirmed-additive-free-english-250.png');
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+}
+
+.tequila-fractures{
+    border: 1px solid black;
+    background: url('../assets/imgs/products/tequila.jpg');
+    background-size:400%;
+    background-position-x: center;
+    transform: rotate(-90deg);
+    height: 80px;
+    width: 80px;
+
+}
+
+.heart-icon-large-positioning{
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.lower-section{
+    top: 150px;
+    position: relative;
+    display: grid;
+   
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 2% 60% 40%;
+    row-gap: 40px;
+    
+}
+
+.grid-container-info{
+    position: relative;
+    left: 17%;
+}
+
+.lower-section::before{
+    content: "";
+    background: url('../assets/imgs/bg/road.png');
+
+
+    width: 125%;
+    background-size: 100%;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    inset: 0;
+    opacity: 0.4;
+    z-index: -9;
+}
+
+.detail-list li{
+
+    list-style:circle;
+}
+
+.details-header{
+    position: relative;
+    bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(79, 79, 79, .2);
+}
+
+.tech-details{
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+#seal-sizes{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.suggestion-bg-yellow{
+    position: relative; width: 120%; height: 35%; z-index: -1; top: 75%; right: 15px;
+}
+
+
+
+
+
+
