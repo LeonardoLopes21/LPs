@@ -23,6 +23,10 @@
     width: 100%;
 }
 
+.pages{
+    grid-column: 2;
+}
+
 #navbar{
     display: grid;
     grid-template-columns: auto auto;
@@ -292,10 +296,13 @@
 
 .heart-icon-positioning{
     
-    position: relative;
     display: flex;
-    justify-content: end;
-    bottom: 192%;
+    grid-column: 3;
+    position: relative;
+    top: 10px;
+   
+   
+   
 
     
    
@@ -765,7 +772,7 @@
 
 .upper-product-box{
     display: grid;
-    grid-template-columns: repeat(3, fit-content);
+    grid-template-columns:20% 60% 20%;
 }
 
 .lower-product-box{
@@ -787,12 +794,25 @@
     border-radius: 100%;
 }
 
+.fra-flag-icon{
+    background: url('../assets/imgs/flags/Flag_of_France.png');
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
 .frete-gratis{
 
     display: flex;
     justify-content: center;
     position: relative;
-    top: 100%;
+    
     align-items: end;
     
     
@@ -836,6 +856,8 @@
     background: url('../assets/imgs/products/jack-daniels.png'); background-size:cover;
     background-position-x: center;
 }
+
+
 
 .add-to-cart{
     
